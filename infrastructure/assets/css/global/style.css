@@ -6,22 +6,32 @@
   }
 
 @font-face {
-    font-family: 'Antique Book Cover';
-    src: url('/infrastructure/assets/fonts/antique_book_cover/antique_book_cover.otf') format('opentype');;
+    font-family: 'Robot';
+    src: url('/infrastructure/assets/fonts/robot/Robot_Font.otf') format('opentype');;
   }
   
 body {
-    background-color: #311131;
+    background-color: #180B41;
 
   }
   
 h1 {
     font-family: 'Mleitod-Regular', monospace;
     text-transform: uppercase;
-    color: #EA404D;
+    color: #E80E49;
     padding: 15px;
     text-align: center;
     font-size: 50px;
+
+  }
+
+  h2 {
+    font-family: 'Mleitod-Regular', monospace;
+    text-transform: uppercase;
+    color: #EA404D;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
 
   }
 
@@ -36,16 +46,16 @@ h3 {
   }
 
 p {
-    font-family: 'Antique Book Cover', monospace;
-    color: #0E92D2;
+    font-family: 'Robot', monospace;
+    color: #ffffff;
     text-align: justify;
     font-size: 18px;
 
   }
 
 a {
-    font-family: 'Antique Book Cover', monospace;
-    color: #0E92D2;
+    font-family: 'Robot', monospace;
+    color: #FF6798;
     text-align: center;
     font-size: 18px;
     font-style: italic;
@@ -53,7 +63,7 @@ a {
   }
 
 .l {
-    font-family: 'Antique Book Cover', monospace;
+    font-family: 'Robot', monospace;
     color: #0E92D2;
     text-align: left;
     font-size: 18px;
