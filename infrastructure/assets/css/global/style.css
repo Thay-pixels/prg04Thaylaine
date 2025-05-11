@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
 @font-face {
-    font-family: 'Mleitod-Regular';
-    src: url('/infrastructure/assets/fonts/mleitod/mleitod_personal_use_only.ttf') format('truetype');
+    font-family: 'Anonymous_Pro';
+    src: url('/infrastructure/assets/fonts/anonymous_pro/AnonymousPro-Bold.ttf') format('truetype');
   }
 
 @font-face {
-    font-family: 'Robot';
-    src: url('/infrastructure/assets/fonts/robot/Robot_Font.otf') format('opentype');;
+    font-family: 'Emerge';
+    src: url('/infrastructure/assets/fonts/emerge/Emerge\ Demo.ttf') format('opentype');;
   }
   
 body {
@@ -16,7 +14,7 @@ body {
   }
   
 h1 {
-    font-family: 'Mleitod-Regular', monospace;
+    font-family: 'Emerge', monospace;
     text-transform: uppercase;
     color: #E80E49;
     padding: 15px;
@@ -26,7 +24,7 @@ h1 {
   }
 
   h2 {
-    font-family: 'Mleitod-Regular', monospace;
+    font-family: 'Emerge', monospace;
     text-transform: uppercase;
     color: #EA404D;
     padding: 15px;
@@ -36,7 +34,7 @@ h1 {
   }
 
 h3 {
-    font-family: 'Mleitod-Regular', monospace;
+    font-family: 'Emerge', monospace;
     text-transform: uppercase;
     color: #EA404D;
     padding: 15px;
@@ -46,7 +44,7 @@ h3 {
   }
 
 p {
-    font-family: 'Robot', monospace;
+    font-family: 'Anonymous_Pro', monospace;
     color: #ffffff;
     text-align: justify;
     font-size: 18px;
@@ -54,7 +52,7 @@ p {
   }
 
 a {
-    font-family: 'Robot', monospace;
+    font-family: 'Anonymous_Pro', monospace;
     color: #FF6798;
     text-align: center;
     font-size: 18px;
@@ -63,7 +61,7 @@ a {
   }
 
 .l {
-    font-family: 'Robot', monospace;
+    font-family: 'Anonymous_Pro', monospace;
     color: #0E92D2;
     text-align: left;
     font-size: 18px;
