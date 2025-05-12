@@ -1,0 +1,22 @@
+.cabecalho {
+  background-color: #4B0082;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Conteúdo principal */
+.conteudo {
+  background-color: white;
+  padding: 30px;
+  margin: 20px;
+  border: 2px solid #ccc;
+}
+
+/* Rodapé */
+.rodape {
+  background-color: #eee;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
