@@ -1,32 +1,37 @@
 /* Cabeçalho */
 header {
-  background-color: #3C2E7A;
-  padding: 10px;
-  text-align: center;
-  margin: auto;
+    background-color: #3C2E7A;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    min-width: 400px;
 
 }
 
 /* Rodapé */
 footer {
-  background-color: #3C2E7A;
-  padding: 10px;
-  text-align: center;
-  margin: auto;
+    background-color: #3C2E7A;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    min-width: 400px;
 
 }
 
 /* Conteudo principal */
 main {
-  text-align: justify;
-  padding: 10px;
+    text-align: justify;
+    padding: 10px;
+    min-width: 400px;
+
 
 }
 
 /* Seções */
 section {
-  background-color: #3C2E7A;
-  padding: 10px;
+    background-color: #3C2E7A;
+    padding: 10px;
+    min-width: 400px;
   
 }
 
@@ -38,11 +43,62 @@ aside {
     font-size: 14px;
     font-style: bold;
     padding: 10px;
+    min-width: 400px;
 
 }
 
 /*Para deixar textos e conteúdos especificos em centralizar. */
 .center {
-  text-align: center;
+    text-align: center;
+    min-width: 400px;
+
+}
+
+nav#menu {
+    display: block;
+
+}
+
+/* Menu de navegação dentro da section. */
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #dddddd;
+    transition: background-color 1s;
+
+}
+
+nav#menu a {
+    text-decoration: none;
+    color: white;
+    background-color: #574fd6;
+    padding: 10px 20px;
+    border: 8px;
+    display: inline-block;
+    font-style: bold;
+
+}
+
+nav#menu a:hover {
+    background-color: #FF6798;
+    text-decoration: underline;
+
+}
+
+nav#menu li:hover {
+    background-color: #FF6798;
+}
+
+.interface {
+    min-width: 400px;
+    margin: 0 auto;
 
 }
