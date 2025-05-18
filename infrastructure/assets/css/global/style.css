@@ -1,22 +1,27 @@
 @font-face {
-    font-family: 'Anonymous_Pro';
-    src: url('/infrastructure/assets/fonts/anonymous_pro/AnonymousPro-Bold.ttf') format('truetype');
+    font-family: 'Deutsch_Gothic';
+    src: url('/infrastructure/assets/fonts/deutsch_gothic/Deutsch.ttf') format('truetype');
   }
 
 @font-face {
-    font-family: 'Emerge';
-    src: url('/infrastructure/assets/fonts/emerge/Emerge\ Demo.ttf') format('opentype');;
+    font-family: 'Crimson_Text_Regular';
+    src: url('/infrastructure/assets/fonts/crimson_text/CrimsonText-Regular.ttf') format('opentype');;
   }
+
+@font-face {
+    font-family: 'Crimson_Text_Bold';
+    src: url('/infrastructure/assets/fonts/crimson_text/CrimsonText-Bold.ttf') format('opentype');;
+}
   
 body {
-    background-color: #180B41;
+    background-color: #404936;
 
   }
   
 h1 {
-    font-family: 'Emerge', monospace;
+    font-family: 'Deutsch_Gothic', monospace;
     text-transform: uppercase;
-    color: #E80E49;
+    color: #B59B79;
     padding: 15px;
     text-align: center;
     font-size: 50px;
@@ -24,36 +29,36 @@ h1 {
   }
 
   h2 {
-    font-family: 'Emerge', monospace;
+    font-family: 'Crimson_Text_Bold', monospace;
     text-transform: uppercase;
-    color: #EA404D;
+    color: #B59B79;
     padding: 15px;
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
 
   }
 
 h3 {
-    font-family: 'Emerge', monospace;
+    font-family: 'Crimson_Text_Bold', monospace;
     text-transform: uppercase;
-    color: #EA404D;
+    color: #B59B79;
     padding: 15px;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
 
   }
 
 p {
-    font-family: 'Anonymous_Pro', monospace;
-    color: #ffffff;
+    font-family: 'Crimson_Text_Regular', monospace;
+    color: #E2D8C2;
     text-align: justify;
-    font-size: 18px;
+    font-size: 20px;
 
   }
 
 a {
-    font-family: 'Anonymous_Pro', monospace;
-    color: #FF6798;
+    font-family: 'Crimson_Text_Regular', monospace;
+    color: #443C3D;
     text-align: center;
     font-size: 18px;
     font-style: italic;
@@ -61,8 +66,16 @@ a {
   }
 
 .l {
-    font-family: 'Anonymous_Pro', monospace;
-    color: #0E92D2;
+    font-family: 'Crimson_Text_Regular', monospace;
+    color: #E2D8C2;
     text-align: left;
     font-size: 18px;
   }
+
+/*Para deixar textos e conteúdos especificos em centralizar. */
+.center {
+    text-align: center;
+    max-width: auto;
+    min-width: 400px;
+
+}
