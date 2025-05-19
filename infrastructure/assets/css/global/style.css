@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Deutsch_Gothic';
     src: url('/infrastructure/assets/fonts/deutsch_gothic/Deutsch.ttf') format('truetype');
-  }
+}
 
 @font-face {
     font-family: 'Crimson_Text_Regular';
     src: url('/infrastructure/assets/fonts/crimson_text/CrimsonText-Regular.ttf') format('opentype');;
-  }
+}
 
 @font-face {
     font-family: 'Crimson_Text_Bold';
@@ -16,7 +16,7 @@
 body {
     background-color: #404936;
 
-  }
+}
   
 h1 {
     font-family: 'Deutsch_Gothic', monospace;
@@ -26,9 +26,9 @@ h1 {
     text-align: center;
     font-size: 50px;
 
-  }
+}
 
-  h2 {
+h2 {
     font-family: 'Crimson_Text_Bold', monospace;
     text-transform: uppercase;
     color: #B59B79;
@@ -36,7 +36,7 @@ h1 {
     text-align: center;
     font-size: 35px;
 
-  }
+}
 
 h3 {
     font-family: 'Crimson_Text_Bold', monospace;
@@ -46,7 +46,14 @@ h3 {
     text-align: center;
     font-size: 30px;
 
-  }
+}
+
+a {
+    font-family: 'Crimson_Text_Bold', monospace;
+    color: #E2D8C2;
+    text-decoration: none;
+
+}
 
 p {
     font-family: 'Crimson_Text_Regular', monospace;
@@ -54,23 +61,23 @@ p {
     text-align: justify;
     font-size: 20px;
 
-  }
+}
 
-a {
+.link {
     font-family: 'Crimson_Text_Regular', monospace;
     color: #443C3D;
     text-align: center;
     font-size: 18px;
     font-style: italic;
 
-  }
+}
 
 .l {
     font-family: 'Crimson_Text_Regular', monospace;
     color: #E2D8C2;
     text-align: left;
     font-size: 18px;
-  }
+}
 
 /*Para deixar textos e conteúdos especificos em centralizar. */
 .center {
@@ -78,4 +85,70 @@ a {
     max-width: auto;
     min-width: 400px;
 
+}
+
+.forlabel {
+    font-family: 'Crimson_Text_Bold', monospace;
+    text-transform: uppercase;
+    color: #B59B79;
+    padding: 15px;
+    text-align: center;
+    font-size: 35px;
+}
+
+button {
+  font-family: 'Crimson_Text_Bold', monospace;
+  background-color: #B59B79;
+  color: #B59B79;
+  padding: 15px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Efeito ao passar o mouse. */
+button:hover {
+  background-color: #99744A;
+}
+
+table {
+    border: 5px solid #99744A;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+tr, td {
+    border: 1px solid #99744A;
+    font-family: 'Crimson_Text_Regular', monospace;
+    color: #E2D8C2;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-bottom: 0px;
+
+}
+
+th {
+    background-color: #99744A;
+    font-size: 24px;
+    color: #181616;
+    font-family: 'Crimson_Text_Bold', monospace;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.btn {
+    background-color: transparent;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+#barraPesquisa {
+    width: 20px;
+    height: 30px;
+    border: 2px solid #181616;
 }

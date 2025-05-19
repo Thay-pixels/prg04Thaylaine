@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link para o CSS Global -->
+    <link href="../assets/css/global/style.css" rel="stylesheet">
+
+    <!-- Link para o CSS de index -->
+    <link href="../assets/css/global/index.css" rel="stylesheet">
+
+    <!-- Tag para carregar o favicon -->
+    <link rel="shortcut icon" href="/infrastructure/assets/icons/old-book.ico" type="image/x-icon">
+
+    <title>Login</title>
+</head>
+<body>
+    
+    <header>
+        <!-- Título da página principal -->
+            <h1> LOGIN </h1>
+            <nav id="menu">
+            <ul>
+                <!-- Link para a página inicial -->
+                <li><a class="link" target="_blank" href="/index.html"> INÍCIO </a></li>
+                <!-- Link para a página da atividade 3 -->
+                <li><a class="link" target="_blank" href="./infrastructure/pages/atividade-3.html"> ATIVIDADE 3 </a></li>
+                <!-- Link para a página da atividade 4 -->
+                <li><a class="link" target="_blank" href="./infrastructure/pages/atividade-4.html"> ATIVIDADE 4 </a></li>
+                <!-- Link para a página da atividade 5 -->
+                <li><a class="link" target="_blank" href="./infrastructure/pages/atividade-5.html"> ATIVIDADE 5 </a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="interface">
+        <main class="center">
+            <form action="" method="post">
+                <label class="forlabel" for="usuario">USUÁRIO</label><br>
+                <input type="text" id="usuario" name="usuario" placeholder="Insira seu usuário..." style="width: 300px; height: 30px;" required ><br><br>
+
+                <label class="forlabel" for="email">EMAIL</label><br>
+                <input type="email" id="email" name="email" placeholder="Insira seu email..." style="width: 300px; height: 30px;" required ><br><br>
+
+                <label class="forlabel" for="senha">SENHA</label><br>
+                <input type="password" id="senha" name="senha" placeholder="Insira sua senha..." pattern=".{8,}"
+                title="A senha deve conter 8 dígitos!" style="width: 300px; height: 30px;" required><br><br>
+
+                <button type="submit"><a href="/infrastructure/pages/admin.html"> ENVIAR </a></button>
+            </form>
+        </main>
+
+    </div>
+
+</body>
+</html>
