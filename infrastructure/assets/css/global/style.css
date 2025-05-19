@@ -5,12 +5,17 @@
 
 @font-face {
     font-family: 'Crimson_Text_Regular';
-    src: url('/infrastructure/assets/fonts/crimson_text/CrimsonText-Regular.ttf') format('opentype');;
+    src: url('/infrastructure/assets/fonts/crimson_text/CrimsonText-Regular.ttf') format('opentype');
 }
 
 @font-face {
     font-family: 'Crimson_Text_Bold';
-    src: url('/infrastructure/assets/fonts/crimson_text/CrimsonText-Bold.ttf') format('opentype');;
+    src: url('/infrastructure/assets/fonts/crimson_text/CrimsonText-Bold.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Celtic_Garamond';
+    src: url('/infrastructure/assets/fonts/celtic_garamond/CELTG.TTF') format('opentype');
 }
   
 body {
@@ -87,6 +92,7 @@ p {
 
 }
 
+/*Estilo para as caixas de texto do formulário.*/
 .forlabel {
     font-family: 'Crimson_Text_Bold', monospace;
     text-transform: uppercase;
@@ -96,21 +102,54 @@ p {
     font-size: 35px;
 }
 
-button {
-  font-family: 'Crimson_Text_Bold', monospace;
-  background-color: #B59B79;
-  color: #B59B79;
-  padding: 15px 30px;
-  font-size: 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+/*Estilo para titulos especificos ou que se deseja dar destaque sem ser H1/H2. */
+.forsign {
+    font-family: 'Celtic_Garamond', monospace;
+    color:#E2D8C2;
+    text-align: right;
+    background-color:#181616;
+    border: 2px solid #181616;
+    border-radius: 10px;
+
 }
 
-/* Efeito ao passar o mouse. */
+/*Estilo para inputs. */
+.forinputs {
+    font-family: 'Crimson_Text_Regular', monospace;
+    font-size: medium;
+    font-style: italic;
+    background-color: #E2D8C2;
+    text-align: left;
+    color: #E2D8C2;
+    border-radius: 10px;
+    border: 2px solid #181616;
+    width: 60%;
+
+}
+
+button {
+    font-family: 'Crimson_Text_Bold', monospace;
+    background-color: #443C3D;
+    color: #E2D8C2;
+    padding: 10px 15px 10px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: 2px solid #181616;
+    border-radius: 10px;
+
+}
+
+/*Efeito ao passar o mouse. */
 button:hover {
-  background-color: #99744A;
+    background-color: #B59B79;
+    color: #443C3D;
+
+}
+
+button:hover a {
+    color: #443C3D;
 }
 
 table {
@@ -147,8 +186,36 @@ th {
 
 }
 
+/*Estilo para barras de pesquisa (por id). */
 #barraPesquisa {
-    width: 20px;
+    background-color: #443C3D;
+    color: #E2D8C2;
     height: 30px;
+    border-radius: 10px;
     border: 2px solid #181616;
+    width: 60%;
+    text-align: left;
+}
+
+/*Estilo único para o botão de cadastro da tela admin. */
+.btn_cad {
+    font-family: 'Crimson_Text_Bold', monospace;
+    background-color: #443C3D;
+    color: #E2D8C2;
+    padding: 5px 5px;
+    font-size: 15px;
+    border: 2px solid #181616;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 0px;
+    width: 60%;
+    height: 35px;
+
+}
+
+.btn_cad:hover {
+    background-color: #B59B79;
+    color: #443C3D;
+
 }
