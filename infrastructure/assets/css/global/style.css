@@ -17,9 +17,15 @@
     font-family: 'Celtic_Garamond';
     src: url('../../fonts/celtic_garamond/CELTG.TTF') format('opentype');
 }
+
+* {
+  box-sizing: border-box;
+}
   
 body {
     background-color: #404936;
+    margin: 0;
+    width: 100%;
 
 }
   
@@ -65,6 +71,15 @@ p {
     color: #E2D8C2;
     text-align: justify;
     font-size: 20px;
+
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -123,7 +138,10 @@ p {
     color: #181616;
     border-radius: 10px;
     border: 2px solid #181616;
-    width: 60%;
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    
 
 }
 
@@ -217,5 +235,120 @@ th {
 .btn_cad:hover {
     background-color: #B59B79;
     color: #443C3D;
+
+}
+
+
+/* Estilos para telas pequenas */
+@media (min-width: 400px) and (max-width: 600px) {
+    body {
+        font-size: 12px;
+        padding: 0px;
+    }
+
+    h1 {
+    font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    table{
+        width: 50%;
+    }
+
+    #form{
+        width: 20%;
+    }
+
+}
+
+/* Estilos para tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    h1 {
+    font-size: 42px;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    table{
+        width: 50%;
+    }
+
+}
+
+/* Estilos para telas grandes */
+@media (min-width: 1025px) {
+    body {
+        font-size: 20px;
+        padding: 40px;
+        margin: 0;
+    }
+
+}
+
+/* Estilos para telas pequenas — Paisagem (landscape) */
+@media (max-width: 400px) and (max-width: 600px) and (orientation: landscape) {
+    body {
+        font-size: 12px;
+
+    }
+
+    h1 {
+    font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    table{
+        width: 50%;
+    }
+
+}
+
+/* Estilos para tablets — Retrato (portrait) */
+@media (min-width: 601px) and (max-width: 1024px) and (orientation: portrait) {
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+    font-size: 42px;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    table{
+        width: 50%;
+    }
 
 }
