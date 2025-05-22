@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'Deutsch_Gothic';
-    src: url('/infrastructure/assets/fonts/deutsch_gothic/Deutsch.ttf') format('truetype');
+    src: url('../../fonts/deutsch_gothic/Deutsch.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Crimson_Text_Regular';
-    src: url('/infrastructure/assets/fonts/crimson_text/CrimsonText-Regular.ttf') format('opentype');
+    src: url('../../fonts/crimson_text/CrimsonText-Regular.ttf') format('opentype');
 }
 
 @font-face {
     font-family: 'Crimson_Text_Bold';
-    src: url('/infrastructure/assets/fonts/crimson_text/CrimsonText-Bold.ttf') format('opentype');
+    src: url('../../fonts/crimson_text/CrimsonText-Bold.ttf') format('opentype');
 }
 
 @font-face {
     font-family: 'Celtic_Garamond';
-    src: url('/infrastructure/assets/fonts/celtic_garamond/CELTG.TTF') format('opentype');
+    src: url('../../fonts/celtic_garamond/CELTG.TTF') format('opentype');
 }
   
 body {
@@ -120,7 +120,7 @@ p {
     font-style: italic;
     background-color: #E2D8C2;
     text-align: left;
-    color: #E2D8C2;
+    color: #181616;
     border-radius: 10px;
     border: 2px solid #181616;
     width: 60%;
