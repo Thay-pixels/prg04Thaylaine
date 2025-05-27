@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- CSS do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- JS do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
     <!-- Link para o CSS Global -->
     <link href="../assets/css/global/style.css" rel="stylesheet">
 
@@ -15,33 +21,35 @@
 
     <title>Admin</title>
 </head>
-<body>
 
-    <header>
+<body>
+    <div class="container">
+    <header class="p-4 rounded text-center mb-4">
         <!-- Título da página principal -->
-            <h1> PAINEL ADMINISTRATIVO </h1>
+            <h1 class="mb-3"> PAINEL ADMINISTRATIVO </h1>
             <nav id="menu">
-            <ul>
+            <ul class="nav justify-content-center">
                 <!-- Link para a página inicial -->
-                <li><a class="link" target="_blank" href="/index.html"> INÍCIO </a></li>
+                <li class="nav-item"><a class="link" target="_blank" href="./index.html"> INÍCIO </a></li>
                 <!-- Link para a página da atividade 3 -->
-                <li><a class="link" target="_blank" href="./infrastructure/pages/atividade-3.html"> ATIVIDADE 3 </a></li>
+                <li class="nav-item"><a class="link" target="_blank" href="./atividade-3.html"> ATIVIDADE 3 </a></li>
                 <!-- Link para a página da atividade 4 -->
-                <li><a class="link" target="_blank" href="./infrastructure/pages/atividade-4.html"> ATIVIDADE 4 </a></li>
+                <li class="nav-item"><a class="link" target="_blank" href="./atividade-4.html"> ATIVIDADE 4 </a></li>
                 <!-- Link para a página da atividade 5 -->
-                <li><a class="link" target="_blank" href="./infrastructure/pages/atividade-5.html"> ATIVIDADE 5 </a></li>
+                <li class="nav-item"><a class="link" target="_blank" href="./atividade-5.html"> ATIVIDADE 5 </a></li>
             </ul>
         </nav>
     </header>
 
   <br><br>
-  <table>
+  <div class="table-responsive">
+  <table class="table-bordered table-striped align-middle">
     <thead>
         <th>
-            <input class="center" type="text" id="barraPesquisa" placeholder="Pesquisar na tabela...">
+            <input class="center form-control" type="text" id="barraPesquisa" placeholder="Pesquisar na tabela...">
         </th>
         <th>
-            <button class="btn_cad">NOVO USUÁRIO</button>
+            <button class="btn_cad btn-success">NOVO USUÁRIO</button>
         </th>
         <th></th>
         <th>
@@ -125,6 +133,8 @@
     </tbody>
 
   </table>
-    
+  </div>
+  </div>
+
 </body>
 </html>
